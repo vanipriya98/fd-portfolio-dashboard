@@ -4,7 +4,7 @@ const BankOption = ({ bank, name, features, interestRate, buttonLabel }) => {
             <div className="bank-header">
                 <h3>{name}</h3>
             </div>
-            <ul className="features">
+            <ul className= {`features ${bank.toLowerCase()}`}>
                 {features.map((feature, index) => (
                     <li key={index}>
                         <div className="checkbox-container">

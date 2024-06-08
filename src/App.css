@@ -42,38 +42,7 @@
   cursor: pointer;
 }
 
-.video-kyc {
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-radius: 5px;
 
-}
-
-.video-kyc h3 {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.video-kyc p {
-  margin: 10px 0;
-}
-
-.actions {
-  display: flex;
-  gap: 10px;
-}
-
-.actions button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.actions button:hover {
-  background-color: #0056b3;
-}
 
 .checkbox-container {
   display: flex;
@@ -102,8 +71,6 @@
 }
 
 .features {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
   display: flex;
   flex-direction: row;
@@ -115,6 +82,7 @@
   flex-direction: row;
   margin-bottom: 20px;
   padding: 6px;
+
 
 }
 
@@ -148,12 +116,17 @@
 .book-now.bajaj,
 .checkbox-label.bajaj {
   background-color: #007bff;
-
 }
 
+.features.utkarsh li {
+  background-color: #e1dbf5
+}
+
+.features.bajaj li {
+  background-color: #dbe1f3
+}
 
 .kyc-card {
-
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -243,6 +216,5 @@
   font-weight: bold;
   color: #333;
   padding: 8px;
-
   background-color: rgb(234, 226, 226);
 }
